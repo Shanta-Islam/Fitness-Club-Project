@@ -18,3 +18,22 @@
     top: 20px;
     margin: 15px;
 }
+
+
+
+@media (max-width:1300px) {
+    .body-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    .act-body{
+        grid-template-columns: repeat(2 ,1fr);
+    }
+}
+@media (max-width:991px){
+    .body-container{
+        display: block;
+    }
+    .time-info{
+        padding: 20px;
+    }
+}
