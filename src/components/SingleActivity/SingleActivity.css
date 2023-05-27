@@ -1,0 +1,21 @@
+.singleAct-container{
+    height: 490px;
+    width: 295px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+}
+.singleAct-container img{
+    width: 295px;
+    padding: 10px;
+}
+.singleAct-text{
+    padding: 10px 20px;
+}
+.singleAct-text button{
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: #1d77c3;
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+.header-container{
+    padding: 0px 35px;
+    padding-top: 35px;
+    margin: 20px;
+    margin-top: 0px;
+}
+.logo-text img{
+    width: 40px;
+    margin-right: 8px;
+}
+.logo-text span{
+    font-size: 35px;
+    font-weight: 700;
+    color: #1d77c3;
+}
