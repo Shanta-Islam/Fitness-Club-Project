@@ -19,3 +19,15 @@
     background-color: #1d77c3;
     color: #fff;
 }
+
+@media (max-width:991px){
+    .singleAct-container{
+        margin: auto;
+        margin-top: 20px;
+        width: 365px;
+        height: 520px;
+    }
+    .singleAct-container img{
+        width: 365px;
+    }
+}
