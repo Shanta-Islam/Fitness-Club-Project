@@ -5,7 +5,7 @@ import UserInfo from '../UserInfo/UserInfo';
 import Header from '../Header/Header';
 import QAccordion from '../QAccordion/QAccordion';
 
-const Activities = () => {
+const Activities = (props) => {
     const [activities, setActivities] = useState([]);
     const [timeCount, setTimeCount] = useState([]);
 
@@ -32,7 +32,7 @@ const Activities = () => {
             </div>
             <div className="time-container">
                 <div className='time-info'>
-                    <UserInfo timeCount={timeCount}></UserInfo>
+                    <UserInfo timeCount={timeCount} notify={props.notify}></UserInfo>
                 </div>
             </div>
             
