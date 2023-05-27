@@ -39,3 +39,12 @@
         width: 260px;
     }
 }
+@media (max-width:600px){
+    .singleAct-container{
+        width: 400px;
+        height: 550px
+    }
+    .singleAct-container img{
+        width: 400px;
+    }
+}
