@@ -31,3 +31,11 @@
         width: 365px;
     }
 }
+@media (max-width:820px){
+    .singleAct-container{
+        width: 260px;
+    }
+    .singleAct-container img{
+        width: 260px;
+    }
+}
