@@ -32,3 +32,12 @@
     background-color: #1d77c3;
     color: #fff;
 }
+.activity-btn{
+    width: 100%;
+    background-color: #1d77c3;
+    color: #fff;
+}
+.activity-btn:hover{
+    color: #1d77c3;
+    border: 1px solid #1d77c3;
+}
