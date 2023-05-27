@@ -4,7 +4,7 @@ import React from 'react';
 
 const QAccordion = () => {
     return (
-        <div>
+        <div className='mt-5 p-5'>
             <div>
                 <h4>Answer Of Some Of Questions</h4>
             </div>
