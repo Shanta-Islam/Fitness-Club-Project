@@ -5,7 +5,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const notify = () => {
-    toast.success('🧘 Meditation Completed!', {
+    toast.success('Activity Completed!', {
       position: "top-right",
       autoClose: 3000,
       hideProgressBar: false,

@@ -35,9 +35,6 @@ const Activities = (props) => {
                     <UserInfo timeCount={timeCount} notify={props.notify}></UserInfo>
                 </div>
             </div>
-            
-           
-            
         </div>
     );
 };
