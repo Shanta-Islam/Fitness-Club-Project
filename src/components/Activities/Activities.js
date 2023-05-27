@@ -23,7 +23,7 @@ const Activities = (props) => {
         <div className='body-container'>
             <div className="act-container">
                 <Header></Header>
-                <div className='act-body mt-5'>
+                <div className='act-body mt-3'>
                     {
                         activities.map(act=> <SingleActivity key={act.id} act={act} addToList={addToList}></SingleActivity>)
                     }

@@ -8,6 +8,7 @@ const Header = () => {
                 <img src={logo} alt="" />
                 <span>FITRONIC</span>
             </div>
+            <h3 className='mt-5'>Select today's exercise</h3>
         </div>
     );
 };
