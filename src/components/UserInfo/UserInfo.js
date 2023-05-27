@@ -56,7 +56,7 @@ const TimeCounts = (props) => {
                 </div>
             </div>
             <div className='mt-4'>
-                <button className='btn activity-btn' >Activity Completed</button>
+                <button className='btn activity-btn' onClick={props.notify}>Activity Completed</button>
             </div>
         </div>
     );
